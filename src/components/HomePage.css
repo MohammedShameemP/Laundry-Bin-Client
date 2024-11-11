@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color:#ECF3F6;
+    position: absolute;
+    
+    
+
+}
+.nameandbutton{
+    padding-left: 100px;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+}
+
+.buttonlog{
+    width: 200px;
+    height: 50px;
+    font-size:30px;
+    font-weight: 700;
+    background-color:#1FACF3;
+    color: white;
+    
+    border-radius: 20px;
+}
+.log{
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+.name{
+}
+
+
+.homeh1{
+    width: 500px;
+    font-size: 50px;
+    color: #141521;
+    padding-bottom: 10px;
+    
+
+}
+.houseimg{
+    width: 40px;
+}
+
+.place{
+    display: flex;
+
+}
+.placename{
+    color:#6E97AE;
+    
+}
+.Limg{
+    width: 700px;
+}
+
+.limgdiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    gap: 80px;
+}
+
+.offrmain{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Offerssec{
+    display: flex;
+    justify-content: center;
+}
+
+.Offers{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 10px;
+
+    width: 98%;
+    height: 200px;
+    background-color: #FFFFFF;
+    gap: 30px;
+}
+.offer1{
+    background-color: #eaeaea;   
+   
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+
+
+}
+
+.offrh{
+    width: 100%;
+}
+.offh1{
+    display: flex;
+    width: 100%;
+    color: #1FACF3;
+    gap: 10px;
+    background-color: #FFFFFF;
+}
+.offrimg{
+    width: 30px;
+
+
+}
+.offer1 h2{
+    padding: 20px 0 20px 0;
+}
+.servicelist{
+    display: flex;
+    padding-top: 30px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.imageservice{
+    background-color: white;
+
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+.imageser{
+    width: 80px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+
+
+}
+
+

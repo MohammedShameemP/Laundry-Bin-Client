@@ -1,0 +1,29 @@
+.summary{
+    background-color:#ECF3F6;
+  
+}
+.summaryhead{
+    display: flex;
+    width: 100vw;
+    height: 50px;
+     gap: 700px;
+     padding: 50px;
+}
+.mainpickuppoint{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    background-color: #FFFFFF;
+    
+    
+    
+    
+}
+.pickuppoint{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    background-color: aqua;
+    
+    
+}

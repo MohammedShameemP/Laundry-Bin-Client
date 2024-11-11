@@ -1,0 +1,25 @@
+.pickupmain{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.pickupsecondmain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.Allpickup{
+    width: 320px;
+    font-size: 20px;
+    border: 2px solid rgb(226, 226, 226);
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+.pickuph1{
+    color:#1FACF3;
+    
+}
