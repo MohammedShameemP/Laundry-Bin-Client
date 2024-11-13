@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const products=async ()=>{
     try {
-        const response=await axios.get ("http://localhost:2006/api/allproducts")
+        const response=await axios.get ("https://merry-frangollo-57785e.netlify.app/api/allproducts")
         console.log("response",response);
         return response.data;
         
@@ -16,7 +16,7 @@ export const products=async ()=>{
     try {
         console.log({data});
         
-        const response=await axios.post (`http://localhost:2006/api/cartdetail?id=${id}`,{data,totalprice})
+        const response=await axios.post (`https://merry-frangollo-57785e.netlify.app/api/cartdetail?id=${id}`,{data,totalprice})
         
 
         

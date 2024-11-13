@@ -5,7 +5,7 @@ import axios from "axios";
 
 export const registerUser = async (formData) => {
     try {
-        const response = await axios.post("http://localhost:2006/api/register", formData);
+        const response = await axios.post("https://merry-frangollo-57785e.netlify.app/api/register", formData);
         console.log("Registration successful:", response.data);
         console.log("token=", response.data.token);
         if (response.data) {
@@ -22,7 +22,7 @@ export const registerUser = async (formData) => {
 
 export const loginUser = async (formData) => {
     try {
-        const response = await axios.post("http://localhost:2006/api/login", formData);
+        const response = await axios.post("https://merry-frangollo-57785e.netlify.app/api/login", formData);
         console.log("successful:", response.data);
         return response.data;
     } catch (error) {
@@ -33,7 +33,7 @@ export const loginUser = async (formData) => {
 
 export const verifyOtpLogin = async (formData) => {
     try {
-        const response = await axios.post("http://localhost:2006/api/verify_otp_login", formData);
+        const response = await axios.post("https://merry-frangollo-57785e.netlify.app/api/verify_otp_login", formData);
         console.log("verify otp successful:", response.data);
         console.log("token=", response.data.token);
         if (response.data) {
@@ -49,7 +49,7 @@ export const verifyOtpLogin = async (formData) => {
 
 export const verifyOtp = async (formData) => {
     try {
-        const response = await axios.post("http://localhost:2006/api/verify_otp", formData);
+        const response = await axios.post("https://merry-frangollo-57785e.netlify.app/api/verify_otp", formData);
         console.log("verify otp successful:", response.data);
         return response.data;
     } catch (error) {
@@ -60,7 +60,7 @@ export const verifyOtp = async (formData) => {
 
 export const sendOTP = async (formData) => {
     try {
-        const response = await axios.post("http://localhost:2006/api/send_otp", formData);
+        const response = await axios.post("https://merry-frangollo-57785e.netlify.app/api/send_otp", formData);
         console.log("OTP send successful:", response.data);
         return response.data;
     } catch (error) {
@@ -71,7 +71,7 @@ export const sendOTP = async (formData) => {
 
 export const createPassword = async (formData) => {
     try {
-        const response = await axios.patch("http://localhost:2006/api/create_password", formData);
+        const response = await axios.patch("https://merry-frangollo-57785e.netlify.app/api/create_password", formData);
         console.log("create password successful:", response.data);
         return response.data;
     } catch (error) {
@@ -86,7 +86,7 @@ export const authentication = async () => {
         Authorization: `Bearer ${token}`,
     };
     try {
-        const response = await axios.get("http://localhost:2006/api/authentication", { headers });
+        const response = await axios.get("https://merry-frangollo-57785e.netlify.app/api/authentication", { headers });
         console.log("authentication successful:", response.data);
         return response.data;
     } catch (error) {
